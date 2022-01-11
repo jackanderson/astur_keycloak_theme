@@ -702,3 +702,8 @@ h1#kc-page-title {
     color: #fff;
     margin-top: 10px;
 }
+
+.pf-c-button.pf-m-primary {
+    color: var(--pf-c-button--m-primary--Color);
+    background-color: black;
+}
