@@ -1,9 +1,12 @@
 .login-pf body {
-    background: url("../img/keycloak-bg.png") no-repeat center center fixed;
+    background: #000 no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
-
+.login-pf-page {
+    background: #000;
+    padding-top: 20px;
+}
 /*IE compatibility*/
 .pf-c-form-control {
     font-size: 14px;
@@ -265,7 +268,7 @@ div.kc-logo-text span {
 #kc-info-wrapper {
     font-size: 13px;
     padding: 15px 35px;
-    background-color: #F0F0F0;
+    background-color: #222;
 }
 
 #kc-form-options span {
@@ -617,11 +620,12 @@ ul#kc-totp-supported-apps {
 }
 
 .card-pf {
+    background-color: #7582EB;
     margin: 0 auto;
     box-shadow: var(--pf-global--BoxShadow--lg);
     padding: 0 20px;
     max-width: 500px;
-    border-top: 4px solid;
+    border-top: 0px solid;
     border-color: #0066CC; /* default - IE compatibility */
     border-color: var(--pf-global--primary-color--100);
 }
@@ -685,4 +689,16 @@ ul#kc-totp-supported-apps {
 
 #kc-back {
     margin-top: 5px;
+}
+.checkbox label, .radio label {
+    color: #000;
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+h1#kc-page-title {
+    color: #fff;
+    margin-top: 10px;
 }
