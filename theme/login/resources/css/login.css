@@ -3,6 +3,11 @@
     background-size: cover;
     height: 100%;
 }
+a {
+    color: #7FFF00;
+    text-decoration: none;
+}
+
 .login-pf-page {
     background: #000;
     padding-top: 20px;
