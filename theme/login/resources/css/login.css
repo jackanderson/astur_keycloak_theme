@@ -1,15 +1,17 @@
 .login-pf body {
-    background: #000 no-repeat center center fixed;
+    background: #0B0F19 no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
 a {
-    color: #7FFF00;
+    color: #909BEF;
     text-decoration: none;
 }
-
+body {
+    color: #A0AEC0;
+}
 .login-pf-page {
-    background: #000;
+    background: #0B0F19;
     padding-top: 20px;
 }
 /*IE compatibility*/
@@ -204,7 +206,7 @@ a#kc-current-locale-link::after {
 }
 
 #kc-logo-wrapper {
-    background-image: url(../img/keycloak-logo-2.png);
+    background-image: url(../img/astur-logo.svg);
     background-repeat: no-repeat;
     height: 63px;
     width: 300px;
@@ -224,9 +226,18 @@ div.kc-logo-text span {
 }
 
 #kc-header {
-    color: #ededed;
+    background-image: url(../img/astur-logo.svg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-postion-y
+    color: #909BEF; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     overflow: visible;
     white-space: nowrap;
+    margin-top 20px;
+    margin-bottom: -10px;
 }
 
 #kc-header-wrapper {
@@ -234,8 +245,9 @@ div.kc-logo-text span {
     text-transform: uppercase;
     letter-spacing: 3px;
     line-height: 1.2em;
-    padding: 62px 10px 20px;
+    padding: 100px 10px 20px;
     white-space: normal;
+    color: #FFF;
 }
 
 #kc-content {
@@ -273,7 +285,7 @@ div.kc-logo-text span {
 #kc-info-wrapper {
     font-size: 13px;
     padding: 15px 35px;
-    background-color: #222;
+    background-color: #212837;
 }
 
 #kc-form-options span {
@@ -625,7 +637,7 @@ ul#kc-totp-supported-apps {
 }
 
 .card-pf {
-    background-color: #7582EB;
+    background-color: #111827;
     margin: 0 auto;
     box-shadow: var(--pf-global--BoxShadow--lg);
     padding: 0 20px;
@@ -696,7 +708,7 @@ ul#kc-totp-supported-apps {
     margin-top: 5px;
 }
 .checkbox label, .radio label {
-    color: #000;
+    color: #A0AEC0;
     min-height: 20px;
     padding-left: 20px;
     margin-bottom: 0;
