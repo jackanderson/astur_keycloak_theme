@@ -1,5 +1,6 @@
 .login-pf body {
     background: #0B0F19 no-repeat center center fixed;
+    background-image: none;
     background-size: cover;
     height: 100%;
 }
@@ -214,7 +215,7 @@ a#kc-current-locale-link::after {
 }
 
 div.kc-logo-text {
-    background-image: url(../img/keycloak-logo-text.png);
+    background-image: none;
     background-repeat: no-repeat;
     height: 63px;
     width: 300px;
@@ -240,11 +241,11 @@ div.kc-logo-text span {
 }
 
 #kc-header-wrapper {
-    font-size: 29px;
+    font-size: 0px;
     text-transform: uppercase;
     letter-spacing: 3px;
     line-height: 1.2em;
-    padding: 100px 10px 20px;
+    padding: 60px 10px 50px;
     white-space: normal;
     color: #FFF;
 }
