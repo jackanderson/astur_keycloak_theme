@@ -720,6 +720,13 @@ h1#kc-page-title {
 }
 
 .pf-c-button.pf-m-primary {
+    height: 3rem;
     color: var(--pf-c-button--m-primary--Color);
-    background-color: black;
+    font-weight: bold;
+    text-shadow: 0 .0625rem .125rem rgba(0,0,0,.5);
+    background-color: #14B8A6;
+}
+
+.pf-c-button.pf-m-primary:hover {
+    background-color: #0E8074;
 }
