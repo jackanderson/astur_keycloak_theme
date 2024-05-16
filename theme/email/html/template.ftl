@@ -1,5 +1,4 @@
-<#macro emailLayout>
-<!DOCTYPE html>
+<#macro emailLayout><!DOCTYPE html>
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
   <head>
@@ -289,14 +288,23 @@ margin-left: -25px !important;
       <table class="darkmode2" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%; background-color: #f8f9fc;">
         <tr>
           <td class="darkmode" align="center" valign="top" style="background-color: #262524; background: linear-gradient(#262524,#262524);">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+              <tr>
+                <td align="center" valign="top" style="padding: 30px 0;">
+                  <!--Header with logo-->
 
-            <#nested>
-
+                  <!--light mode logo-->
+                  <a href="http://admin.acenda.io/" target="_blank"><img src="https://admin.acenda.io/acenda-logo.png"/></a>					</a>
+				  </td>
+              </tr>
+            </table>
           </td>
         </tr>
->
+        <tr><td>
+          <#nested> 
+        </td>
+        </tr>
 
-        <!--footer-->
         <tr>
           <td align="center" style="padding: 0px 15px;">
               <table role="presentation" class="wMobile" cellpadding="0" cellspacing="0" border="0" style="width: 600px; max-width: 600px;">
@@ -317,7 +325,6 @@ margin-left: -25px !important;
       </table>
     </div>
     <!--analytics-->
-
   </body>
 
 </html>
