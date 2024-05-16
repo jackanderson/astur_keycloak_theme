@@ -1,4 +1,5 @@
-<#macro emailLayout><!DOCTYPE html>
+<#macro emailLayout>
+<!DOCTYPE html>
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
   <head>
@@ -289,12 +290,34 @@ margin-left: -25px !important;
         <tr>
           <td class="darkmode" align="center" valign="top" style="background-color: #262524; background: linear-gradient(#262524,#262524);">
 
-                 <#nested>
+            <#nested>
 
+          </td>
+        </tr>
+>
+
+        <!--footer-->
+        <tr>
+          <td align="center" style="padding: 0px 15px;">
+              <table role="presentation" class="wMobile" cellpadding="0" cellspacing="0" border="0" style="width: 600px; max-width: 600px;">
+                <tr>
+                  <td class="footer" align="center" valign="top" style="padding:50px 30px;">
+                    <!--Footer-->
+                    <p style="margin:0 auto 20px;">
+                      You&rsquo;re receiving this email because you have an account with us.
+                    </p>
+                    <p style="mso-line-height-rule:exactly;margin-bottom:20px;">Need help logging in?<br><br>
+                      <a href="https://patch-daphne-754.notion.site/Admin-Pages-3a6a170beb604bb19fca654081d86036" class="link" target="_blank" style="color: #0a080b; text-decoration: underline;">Help Docs</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
           </td>
         </tr>
       </table>
     </div>
+    <!--analytics-->
+
   </body>
 
 </html>
