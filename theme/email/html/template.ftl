@@ -307,7 +307,7 @@ margin-left: -25px !important;
                 <td align="center" valign="top">
                   <table class="wInner" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:500px;">
                     <tr>
-                    <td> <#nested> </td>
+                    <td style="padding: 10px;"> <#nested> </td>
 
                     </tr>
                   </table>
