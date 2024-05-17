@@ -300,9 +300,19 @@ margin-left: -25px !important;
             </table>
           </td>
         </tr>
-        <tr><td>
-          <#nested> 
-        </td>
+        <tr>
+          <td align="center" valign="top" style="padding-top: 60px;">
+            <table class="wMobile darkmode dark-border" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 600px; background-color: #ffffff; border: 1px solid #DADDDE;">
+              <tr>
+                <td align="center" valign="top">
+                  <table class="wInner" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:500px;">
+                    <tr>
+                    <td> <#nested> </td>
+
+                    </tr>
+                  </table>
+           </tr>
+          </td>
         </tr>
 
         <tr>
